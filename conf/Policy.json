@@ -1,0 +1,84 @@
+{
+    "policy": [
+        {
+            "guid": "87eeda39-826c-4b74-a124-3ee87e52f419",
+            "policyDetail": {
+                "folderId": "6295707ddc4844d152d2050fed7a80a6",
+                "guid": "87eeda39-826c-4b74-a124-3ee87e52f419",
+                "id": "6295707ddc4844d152d2050fed7a80ee",
+                "name": "rtg",
+                "policyType": "Include",
+                "properties": {
+                    "property": [
+                        {
+                            "key": "hasRouting",
+                            "booleanValue": "false"
+                        },
+                        {
+                            "key": "revision",
+                            "longValue": "1"
+                        },
+                        {
+                            "key": "soap",
+                            "booleanValue": "false"
+                        }
+                    ]
+                }
+            },
+            "resources": {
+                "resourceSet": [
+                    {
+                        "tag": "policy",
+                        "resource": [
+                            {
+                                "type": "policy",
+                                "content": "AssertionLib\/rtg.xml"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "id": "6295707ddc4844d152d2050fed7a80ee"
+        },
+        {
+            "guid": "b129453c-2c0f-4ba2-b0c6-1277b8038f30",
+            "policyDetail": {
+                "folderId": "6295707ddc4844d152d2050fed7a80a6",
+                "guid": "b129453c-2c0f-4ba2-b0c6-1277b8038f30",
+                "id": "6295707ddc4844d152d2050fed7a8105",
+                "name": "feferferf",
+                "policyType": "Include",
+                "properties": {
+                    "property": [
+                        {
+                            "key": "hasRouting",
+                            "booleanValue": "false"
+                        },
+                        {
+                            "key": "revision",
+                            "longValue": "1"
+                        },
+                        {
+                            "key": "soap",
+                            "booleanValue": "false"
+                        }
+                    ]
+                }
+            },
+            "resources": {
+                "resourceSet": [
+                    {
+                        "tag": "policy",
+                        "resource": [
+                            {
+                                "type": "policy",
+                                "content": "AssertionLib\/feferferf.xml"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "id": "6295707ddc4844d152d2050fed7a8105"
+        }
+    ]
+}
